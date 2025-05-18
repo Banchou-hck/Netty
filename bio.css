@@ -216,3 +216,51 @@ body{
         text-decoration: none;
     }
 }
+
+@media (max-width: 400px) {
+    body{
+        width: 100%;
+    }
+    .title{
+        font-family: Grand Hotel;
+        font-size: 20px;
+        color:#ff9baa;
+    }
+    nav{
+        width: 100%;
+    }
+    nav ul{
+        margin-left: 5px;
+    }
+    nav ul li{
+        margin: 20px 12px;
+        border-bottom: 10px;
+    }
+    nav ul li a{
+        text-decoration: none;
+        color: black;
+        font-size: 15px;
+        font-weight: bold;
+        border-radius: 5px;
+        padding: 10px 10px;
+        margin-left: -5px;
+    }
+    .client_Pic{
+        height: 300px;
+        margin-left: 7vh;
+        margin-top: 2vh;
+        margin-bottom: 5vh;
+        border-radius: 100%;
+    }
+    span{
+        font-family: Grand Hotel;
+        color:#B76E79;
+        font-size: 45px;
+        transition: .25s;
+    }
+    .icons{
+        margin-top: 5vh;
+        font-size: 10vh;
+        margin-left: 15vh;
+    }
+}
